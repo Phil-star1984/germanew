@@ -1,0 +1,12 @@
+# Dependencies & build
+website/node_modules/
+website/dist/
+
+# OS
+.DS_Store
+
+# Local source media (optimized copies live in website/public/assets)
+*.mp3
+My First ChatCut Video*.mp4
+*.pdf
+/*.png
