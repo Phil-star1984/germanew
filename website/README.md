@@ -23,9 +23,8 @@ npm run preview
 
 1. Repository auf GitHub anlegen
 2. Unter Settings → Pages → Source: **GitHub Actions** wählen
-3. Push auf `main` — der Workflow in [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml) baut und deployed automatisch
-
-`vite.config.ts` nutzt `base: './'` für relative Asset-Pfade.
+3. Push auf `main` — der Workflow in [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml) published auf `gh-pages`
+4. GitHub → Settings → Pages → Branch **gh-pages** / **root**
 
 ## Assets
 
